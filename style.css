@@ -1,0 +1,39 @@
+@keyframes exemplo{
+
+    0%{
+
+        top: 50%;
+        left: 0;
+    }
+
+    100%{
+        top: 50%;
+        left: 100vw;
+    }
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+
+}
+.fundo img{
+    width: 100%;
+}
+.exemplo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    animation-name: exemplo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
